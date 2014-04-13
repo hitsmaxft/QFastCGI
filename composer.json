@@ -1,0 +1,21 @@
+{
+    "name": "hitsmaxft/qfastcgi",
+    "description": "simple fastcgi parser",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://composer.admin.search.taobao.com"
+        },
+        {
+            "packagist": false
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "QFastCGI":"lib/"
+        }
+    },
+    "require": {
+         "react/react": "0.4.*"
+    }
+}
